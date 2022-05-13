@@ -1,0 +1,55 @@
+/*
+theme name: TP2 Gabriel Richer
+Author: Gabriel Richer
+Author URI: https://github.com/brouppi
+Description: Ce thème servira de base de développement pour l'ensemble du cours 4W4. Chacune des étapes de développement se retrouvera sur gitHub à l'adresse: https://github.com/brouppi/tp2
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: cidw-4w4
+
+*/
+/* ---------------------------------------------------------
+VARIABLES
+--------------------------------------------------------- */
+@import "variables/couleurs";
+@import "variables/typo";
+@import "variables/structure";
+
+/* ---------------------------------------------------------
+INITIALISATION
+--------------------------------------------------------- */
+@import "initialisation/normalize";
+@import "initialisation/box-sizing";
+/* --------------------------------------------------------
+LAYOUT
+--------------------------------------------------------- */
+@import "layout/layout";
+
+/* ---------------------------------------------------------
+ÉLÉMENTS
+--------------------------------------------------------- */
+@import "elements/links";
+@import "elements/balise";
+
+/* ---------------------------------------------------------
+COMPOSANTES
+--------------------------------------------------------- */
+@import "composantes/contenu";
+@import "composantes/header";
+@import "composantes/navigation";
+@import "composantes/navigation_accueil";
+@import "composantes/navigation_categorie_cours";
+@import "composantes/boite__modale";
+@import "composantes/galerie";
+/* ---------------------------------------------------- FOOTER */
+@import "composantes/footer";
+@import "composantes/single_cours";
+/* ---------------------------------------------------- RECHERCHE */
+@import "composantes/recherche";
+/* ---------------------------------------------------------
+ANIMATION
+--------------------------------------------------------- */
+@import "animation/entete";
+@import "animation/burger";
+

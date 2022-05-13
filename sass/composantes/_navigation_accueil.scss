@@ -1,0 +1,99 @@
+.menu-accueil-container, .menu-evenement-container { //nav
+
+    .menu { //ul
+        display : flex;
+        justify-content: space-around;
+        .accueil__cours .menu-item-icone{
+            background-image: url('https://s2.svgbox.net/octicons.svg?ic=bug-bold');
+        }
+        .accueil__prof .menu-item-icone{
+            background-image: url('https://s2.svgbox.net/octicons.svg?ic=bug-bold');
+        }
+        .accueil__aide .menu-item-icone{
+            background-image: url('https://s2.svgbox.net/octicons.svg?ic=bug-bold');
+        }
+        .accueil__etudiant .menu-item-icone{
+            background-image: url('https://s2.svgbox.net/octicons.svg?ic=bug-bold');
+        }
+
+        .menu-item { //li
+            width : 15%;
+            height : 250px;
+            padding : 10px;
+           
+            a {
+                display : flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+               
+                font-size: 1.5rem;
+                height : 100%;
+                hr{
+                    width : 90%;
+                }
+                .menu-item-description { // span
+                    font-size: 1rem;
+                }
+                .menu-item-icone{
+                    width : 3rem;
+                    height : 3rem;
+                    background-position : center;
+                    background-repeat: no-repeat;
+                    margin-top : auto;
+                    background-size: cover;
+                }
+
+            }
+        &:hover {
+           
+            a {
+               
+            }
+        }    
+
+        }
+
+
+
+    }
+
+
+
+} // fin .menu-accueil-container
+
+.menu-accueil-container {
+    .menu-item {
+        background-color: $color__bouton__background;
+        a{
+            color : $color__bouton__color;
+   
+        }
+    &:hover{
+        background-color: $color__bouton__background--hover;
+        a{
+            color : $color__bouton__color--hover;
+        }
+    }    
+    }
+}
+
+
+
+.menu-evenement-container {
+
+    .menu-item {
+        background-color: $couleur__carte__evenement__background ;
+        a{
+            color: $couleur__carte__evenement ;
+   
+        }
+    &:hover{
+        background-color: $couleur__carte__evenement__background--hover ;
+        a{
+            color: $couleur__carte__evenement--hover ;
+        }
+    }    
+    }
+
+}
