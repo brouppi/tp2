@@ -1,6 +1,6 @@
 # 4w4 - Conception d'interface et développement Web
-### Auteur : Eddy Martin
-### Semaine #5 cours #2: Engin de recherche de wp
+### Auteur : Gabriel Richer
+### tp2
 
 Développement des modules:
  - search.php

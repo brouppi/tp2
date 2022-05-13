@@ -729,13 +729,10 @@ COMPOSANTES
 
 .menu-principale-container {
   display: none;
-  transform: translateY(-100%);
-  transition: all 1s ease-in-out;
 }
 
 #chk-burger:checked ~ .menu-principale-container {
   display: block;
-  transform: translateY(10%);
 }
 
 .menu-principal-container {
